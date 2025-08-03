@@ -1,0 +1,16 @@
+[package]
+name = "BTC_REVENANT"
+version = "0.4.2"
+edition = "2021"
+
+[dependencies]
+secp256k1 = { version = "0.31.1", features = ["rand"] }
+hex = "0.4"
+num-bigint = "0.4"
+num-traits = "0.2"
+num_cpus = "1.16"
+crossbeam = "0.8"
+core_affinity = "0.8.3"
+mimalloc = "0.1"
+bloom = "0.3.2"
+rustc-hash = "2.1.1"
